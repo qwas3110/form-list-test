@@ -173,10 +173,17 @@ table {
 }
 
 .middle-box__des {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    text-align: center;
 }
+
+.middle-box__des span {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
 
 .middle-box__text img {
     width: 20px;
